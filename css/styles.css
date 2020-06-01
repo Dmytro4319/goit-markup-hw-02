@@ -209,15 +209,12 @@ letter-spacing: 0.03em;
   background-repeat: no-repeat;
 }
 .abo {
- 
- position: absolute;
- height: 100%;
+  position: absolute;
+  height: 100%;
   top: 0;
   right: 0;
   left:0;
   bottom:0;
-  
-
   /* background-color: rgba(47, 48, 58, 0.8); */
   margin-top: 0;
   text-align: center;
