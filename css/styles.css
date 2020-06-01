@@ -9,6 +9,7 @@ html {
 li {
   list-style: none;
   text-decoration: none;
+  margin: 0;
 }
 /* ul{
   margin: 0;
@@ -318,10 +319,10 @@ line-height: 60px;
   color: var(--color_black);
   margin-top: 30px;
   margin-bottom: 10px;
-  
-}
-.line-blok .doit .title:not(:last-child){
   margin-right: 30px;
+}
+.no{
+  margin-right: 0px;
   
 }
 .vel{
@@ -330,20 +331,21 @@ line-height: 60px;
 
 .transp {
   display: flex;
-  position: relative;
-  top: -77px;
+  position: absolute;
+  left:0;
+  bottom:6px;
   height: 70px;
+  width: 100%;
   background: rgba(47, 48, 58, 0.8);
-  border-radius: 0px 0px 4px 4px;
   font-size: 14px;
   line-height: 16px;
   justify-content: center;
   text-align: center;
   align-items: center;
-  margin-bottom: 0;
+  margin: 0;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-top: 0;
+  
   margin-right: auto;
   margin-left: auto;
   color: #ffffff;
@@ -376,11 +378,12 @@ color: #212121;
   flex-direction: row;
   text-align: left;
   padding-left: 0;
-  margin-top: 0;
-  margin-left: 0;
+  margin: 0;
+  
 }
 
 .doit-now {
+  position: relative;
   margin-right: 30px;
   margin-bottom: 0;
   flex-wrap: wrap;
@@ -616,11 +619,13 @@ letter-spacing: 0.03em;
   line-height: 36px;
   letter-spacing: 0.06em;
   color: #212121;
+  margin: 0;
   margin-top: 20px;
-  margin-bottom: 0;
+  
   margin-bottom: 4px;
   padding-left: 24px;
   width: 370px;
+  height: 30px;
 }
 .name {
   font-size: 16px;
@@ -631,7 +636,7 @@ letter-spacing: 0.03em;
   margin-bottom: 0;
   margin-bottom: 20px;
   padding-left: 24px;
-
+  height: 30px;
   width: 370px;
 } 
 .line-blo {
